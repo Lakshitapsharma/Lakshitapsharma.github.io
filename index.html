@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font-Awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Lightbox -->
 	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
@@ -133,7 +134,7 @@
           <!-- Service Box 1 -->
                   <div class="col-md-4 wp2 item">
                     <div class="icon">
-                      <i class="fa-solid fa-mobile"></i><!-- Icon -->
+                      <i class="fa fa-pencil-square-o"></i><!-- Icon -->
                     </div>
                     <h2>Design</h2><!-- Title -->
                     <p>Effective UI/UX design is the foundation of any successful online project. It provides long-term growth and a strong basis for future development.</p><!-- Description -->
@@ -165,7 +166,22 @@
 
 
 
-
+        <div class="container-fluid"> 
+          <!-- About 1 -->
+        <div class="row color-bg">
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
+          </div>
+          <div class="col-md-6 about-text">
+            <h6>Workplace Case Study</h6><!-- headline-->
+            <p>Hello and welcome to the immersive tour of our most current to previous UI/UX design project. It's a ground-breaking online experience that skillfully blends creativity with UX design.</br>
+              This case study explains the difficulties encountered, the logistical choices taken, and the striking outcomes attained by skillfully combining form and function.</p><br><!-- About Text 1 -->
+            <a href="workplacecasestudy/workplacecasestudy.html" class="weight-outline-btn">Read more</a><!-- read more button  -->			
+          </div>
+        </div>
+        
+      </div>
+      
 		
 		<!-- ==========================
         ABOUT SECTION END
@@ -318,7 +334,7 @@
                     <div class="col-md-4 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                          <a href="https://medium.com/@lakshitap0/pixel-architect-a-journey-into-ui-ux-digitalland-93175a909346"><img src="img/blog1.jpg" class="grayscale" alt="Blog Item"></a><!-- Blog Image -->
+                          <a href="https://medium.com/@lakshitap0/pixel-architect-a-journey-into-ui-ux-digitalland-93175a909346"><img src="img/blog1.png" class="grayscale" alt="Blog Item"></a><!-- Blog Image -->
                         </div>
                       </div>
             <br>
@@ -392,9 +408,9 @@
 			  <!-- Adress Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
-                  <h2><i class="fa fa-map-marker"></i><span>Behance</span></h2>
-                  <a href="https://www.behance.net/lakshitapsharma">
-                  <p>@lakshitapsharma</p></a>
+                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
+                  <a href="">
+                  <p>New Delhi, India</p></a>
                 </div>
               </div>
 			  <!-- Phone Number Box -->
@@ -447,12 +463,7 @@
 			  </div>
 			</div>
 			<br>
-			<!-- Social Buttons - use font-awesome, past in what you want -->
-           <!----<div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>---><!-- dribble -->
-                 
+			           
         </section>
 		<!-- ==========================
         CONTACT SECTION END
@@ -463,15 +474,38 @@
 		<!-- ==========================
         FOOTER SECTION
         =========================== -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p>All Rights Reserved. &copy; 2023 <a href="http://www.themewagon.com">LakshitaPSharma</a>
-              </div>
-            </div>
+        <!--Footer-->
+
+        <footer class="footer">
+          <div class="content-1170 center-relative">
+              <ul>
+                  <li class="left-footer-content">
+                      ©2023 All rights reserved &copy; <i class="fa fa-heart"></i> by <a href="#  " target="_blank">Lakshita.P.Sharma</a>.
+                  </li>
+                  <li class="center-footer-content">
+                      <a href="index.html">
+                          <img src="workplacecasestudy/images/12.png" alt="Lakshita">
+                      </a>
+                  </li>
+                  <li class="right-footer-contnet">
+                      <a href="https://www.figma.com/@lakshita">Figma</a>
+                      <a href="https://www.linkedin.com/in/lakshita-p-sharma/">Linkedin</a>
+                      <a href="https://www.behance.net/lakshitapsharma">Behance</a>
+                     <a href="https://www.instagram.com/the_ideate/">Instagram</a>
+                  </li>
+                  <li class="left-footer-content mobile">
+                    ©2023 All rights reserved &copy; <i class="fa fa-heart"></i> by <a href="#" target="_blank">Lakshita.P.Sharma</a>.
+                  </li>
+              </ul>
           </div>
-        </footer>
+      </footer>
+
+
+
+      <div class="fixed scroll-top">
+          <img src="img/back_to_top.png" alt="Go Top">
+      </div>
+
 		<!-- ==========================
         FOOTER SECTION END
         =========================== -->		
@@ -541,6 +575,14 @@
       speed: 2000 // How many milliseconds until the next word show.
     });
     </script>
-	
+      <script type="text/javascript" src="workplacecasestudy/js/jquery.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/jquery.smartmenus.min.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/queryloader2.min.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/jquery.carouFredSel-6.0.0-packed.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/jquery.touchSwipe.min.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/jquery.easing.1.3.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/jquery.nicescroll.min.js"></script>
+      <script type="text/javascript" src="workplacecasestudy/js/main.js"></script>
     </body>
 </html>

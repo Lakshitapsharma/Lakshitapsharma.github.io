@@ -1029,16 +1029,136 @@ button,button:focus,button:hover,button:active {
 	outline: none!important;
 }
 /* ==========================================================================Footer========================================================================== */
-footer a {
-	color:#a1a9b0;
+/* FOOTER */
+
+.footer
+{
+    margin-top: 10px;
+    padding-bottom: 30px;
+	padding-right: 120px;
+	padding-left: 120px;
+    clear: both;
+    color: #50504c;
 }
-footer {
-	background-color:#f3f5f8;
-	padding:40px 0 30px;
+
+.footer a
+{
+    color: #50504c;
 }
-footer p {
-	color: #808080;
+
+.footer .fa-heart
+{
+    color: #e76f7d;
+    padding: 0 2px;
+    -webkit-animation: pulse 1s linear infinite;
+    -moz-animation: pulse 1s linear infinite;
+    -ms-animation: pulse 1s linear infinite;
+    animation: pulse 1s infinite;
 }
+
+@keyframes "pulse" {
+    0% { transform: scale(1.1); }
+    70% { transform: scale(0.8,0.8); }
+    80% { transform: scale(0.9,0.9); }
+    100% { transform: scale(1.1);  }
+}
+
+@-moz-keyframes pulse {
+    0% { transform: scale(1.1); }
+    70% { transform: scale(0.8,0.8); }
+    80% { transform: scale(0.9,0.9); }
+    100% { transform: scale(1.1);  }
+}
+
+@-webkit-keyframes "pulse" {
+    0% { transform: scale(1.1); }
+    70% { transform: scale(0.8,0.8); }
+    80% { transform: scale(0.9,0.9); }
+    100% { transform: scale(1.1);  }
+}
+
+@-ms-keyframes "pulse" {
+    0% { transform: scale(1.1); }
+    70% { transform: scale(0.8,0.8); }
+    80% { transform: scale(0.9,0.9); }
+    100% { transform: scale(1.1);  }
+}
+
+.footer ul li
+{
+    display: inline-block;
+}
+
+li.left-footer-content, li.right-footer-contnet
+{
+    width: 40%;
+}
+
+li.left-footer-content
+{
+    font-size: 16px;
+}
+
+li.right-footer-contnet
+{
+    text-align: right;
+}
+
+li.right-footer-contnet a
+{
+    margin-left: 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+li.right-footer-contnet a:first-child
+{
+    margin-left: 0;
+}
+
+li.center-footer-content
+{
+    width: 19%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+li.left-footer-content.mobile
+{
+    display: none;
+}
+
+/* END FOOTER */
+
+/* ==========================================================================Top scroll========================================================================== */
+.scroll-top
+{    
+    bottom: 0;
+    right: 30px;
+    display: none;
+    line-height: 0;
+    z-index: 2;
+    width: 65px;
+    height: 85px;    
+    overflow: hidden;
+}
+
+.scroll-top img
+{
+    width: 100%;
+}
+
+.scroll-top img:hover
+{
+    cursor: pointer; 
+    margin-top: -85px;
+}
+
+.nicescroll-rails-vr:hover
+{   
+    cursor: pointer !important;
+}
+
 /* ==========================================================================FlexSlider Custom CSS========================================================================== */
 #servicesSlider {
 	margin-top:70px;
