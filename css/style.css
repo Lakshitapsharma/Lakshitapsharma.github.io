@@ -1362,3 +1362,472 @@ ul.slides li {
 	    padding-bottom: 40px;
 	}
 }
+
+
+
+
+
+
+
+/* RESPONSIVE PART */
+
+@media screen and (max-width: 1400px) { 
+
+    .header-holder
+    {
+        padding-top: 85px;
+    }
+
+    .header-image img
+    {
+        width: 95%;        
+    }
+
+    .main-menu.sm-clean
+    {
+        margin-top: 170px;
+    }
+
+    .header-image + article .content-wrapper
+    {
+        margin-top: -130px;
+    }
+
+    .one_half,  .one_third,  .two_third,  .three_fourth, .one_fourth
+    {
+        margin-right: 8%;
+        float: left;
+        position: relative;
+        margin-bottom: 37px;
+    }
+
+    .one_half{
+        width: 46%;
+    }
+    .one_third{
+        width: 28%;
+    }
+    .two_third{
+        width: 64%;
+    }
+    .one_fourth{
+        width: 19%;
+    }
+    .three_fourth{
+        width: 73%;
+    }
+
+    .entry-content, .resume-entry-content
+    {
+        padding: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1364px) { 
+
+    .header-image img
+    {
+        width: 100%;        
+    }
+
+    .zigzag
+    {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1255px) { 
+
+    .content-1170
+    {
+        max-width: 90%;
+    }
+
+    .blog-item-holder .one_half_title, .blog-item-holder .one_half_thumb, .blog-item-holder .one_third_title, .blog-item-holder .one_third_thumb, .blog-item-holder .two_third_title, .blog-item-holder .two_third_thumb
+    {
+        width: 50%;
+    } 
+
+    .blog-item-holder .only-post-title-holder .entry-title, .single-post-shortcode .post-text
+    {
+        padding: 0;
+    }
+
+    .blog-item-holder .only-post-title-holder .cat-links, .single-post-shortcode .cat-links
+    {
+        padding-left: 0;
+    }
+
+    .header-image + article .content-wrapper 
+    {
+        margin-top: -10%;
+    }
+
+    blockquote 
+    {
+        margin-left: 0;
+        margin-top: 20px; 
+    }
+
+    blockquote.inline-blockquote 
+    {
+        width: auto;
+        float: none;    
+        margin-left: 0;
+        margin-top: 65px;
+        margin-right: 0;
+    }
+
+    .team-holder .member.one_third
+    {
+        width: 33%;
+        margin-bottom: 30px;
+        float: left;
+    }
+
+    .team-holder .member.one_half, .team-holder .member.one_fourth
+    {
+        width: 50%;
+        margin-bottom: 30px;
+        float: left;
+    }
+
+    .team-holder .member-info
+    {
+        display: block !important;
+        opacity: 1 !important;
+        position: relative;
+        min-height: 220px;
+    }
+
+    .team-holder .member-name
+    {
+        margin-top: 0;
+        padding-top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 1066px) {
+
+    .footer ul li 
+    {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer ul li.center-footer-content
+    {
+        margin-bottom: 45px;
+    }
+
+    .footer ul li.left-footer-content
+    {
+        display: none;
+    }
+
+    .footer ul li.left-footer-content.mobile
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1020px) { 
+    .one_half, .one_third, .one_fourth, .two_third, .three_fourth 
+    {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) { 
+
+    .page .header-image h1.entry-title
+    {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 975px) { 
+
+    .blog-item-holder .one_half_title, .blog-item-holder .one_half_thumb, .blog-item-holder .one_third_title, .blog-item-holder .one_third_thumb, .blog-item-holder .two_third_title, .blog-item-holder .two_third_thumb
+    {
+        width: 100%;
+    }
+
+    .blog-item-holder .only-post-title-holder
+    {
+        padding: 10% 0;                
+    }
+
+    .carousel_pagination
+    {
+        margin-left: 10%;
+    }
+
+    .blog-holder article
+    {
+        margin-bottom: 25px;
+    }
+
+    .blog-holder article:last-child
+    {
+        margin-bottom: 0;
+    }
+
+    .blog-item-holder .only-post-title-holder .entry-title, .single-post-shortcode .post-text 
+    {
+        padding: 0 10%;
+    }
+
+    .blog-item-holder .only-post-title-holder .cat-links
+    {
+        padding-left: 10%;
+    }
+
+    .blog-item-holder .entry-title, .blog-item-holder .cat-links
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .post-title-holder.one_title.absolute
+    {
+        position: relative;
+        padding-bottom: 20px;
+    }      
+
+    .post-title-holder.one_title.absolute .entry-title a
+    {
+        color: #E04343;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+    .post-title-holder.one_title.absolute .cat-links a
+    {
+        color: #E04343;
+        font-size: 11px;
+    }
+
+    .blog-item-holder .one_title .cat-links li:after
+    {
+        color: #E04343;
+    }
+
+    .post-thumb + .post-title-holder .entry-title
+    {
+        margin-top: 50px !important;
+    }
+
+    .team-holder .member.one_third
+    {
+        width: 50%;
+    }
+
+    .single-post-shortcode .post-text
+    {
+        padding: 0;
+    }
+
+    .blog-item-holder .cat-links
+    {
+        padding-top: 25px !important;
+    }
+
+    .header-image + article .content-wrapper 
+    {
+        margin-top: 0;
+    } 
+
+    blockquote:before
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+        margin-top: 70px;
+        display: block;
+        font-size: 200px;
+    }
+
+    blockquote, blockquote.inline-blockquote
+    {
+        margin-top: 110px;
+    }
+
+}
+
+@media screen and (max-width: 755px) {  
+
+    .header-holder .header-logo
+    {
+        margin-left: auto;
+    }
+
+    .header-logo
+    {
+        float: none;
+        text-align: center;
+    }
+
+    .header-menu
+    {
+        float: none;
+    }
+
+    .header-holder .header-logo img
+    {
+        position: relative;
+    }
+
+    .header-holder 
+    {
+        padding-top: 40px; 
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .toggle-holder
+    {
+        margin: 0;
+    }
+
+    #toggle
+    {
+        display: none;
+    }
+
+    #header-main-menu
+    {
+        position: static;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-top: -20px;
+        display: block !important;
+        background-color: #3A3A37;
+    }
+
+    .main-menu.sm-clean
+    {
+        margin-top: 0;
+    }
+
+    .main-menu.sm-clean a 
+    {    
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .main-menu.sm-clean .sub-menu a 
+    {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .entry-content, .resume-entry-content
+    {
+        padding: 10%;
+    }
+
+    .page .header-image h1.entry-title
+    {
+        font-size: 30px;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+
+    .team-holder .member.one_third, .team-holder .member.one_half, .team-holder .member.one_fourth
+    {
+        width: 100%;
+    }
+
+    .team-holder .member-info
+    {
+        min-height: 0;
+        padding-bottom: 25px;
+    }
+
+    .single-post-shortcode
+    {
+        padding: 10%;
+    }
+
+    .single-post-shortcode .cat-links
+    {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 25px;
+    }
+
+    .single-post h1.entry-title, .single-post .post-info, .single-post .entry-content, .single-post .resume-entry-content
+    {
+        padding-left: 5%;
+        padding-right: 5%;        
+    }
+
+    .single-post h1.entry-title
+    {
+        margin-bottom: 20px;
+        padding-top: 40px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .single-post .post-info
+    {
+        line-height: 25px;
+    }
+
+    .single-post .entry-content
+    {
+        padding-bottom: 0;
+        padding-top: 50px; 
+    }
+
+    .single-post .resume-entry-content
+    {
+        padding-top: 0;
+    }
+
+    .scroll-top
+    {                
+        right: 2%;
+        width: 44px;
+        height: 57px;    
+    }
+
+    .scroll-top img:hover
+    {
+        margin-top: -57px;
+    }
+
+    .wp-caption p.wp-caption-text 
+    {    
+        margin-right: 0;    
+        padding: 0 5%;
+        font-size: 14px;
+    }
+
+    .carousel_pagination
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .team-holder .member-social-holder
+    {
+        padding: 0 10px;
+    }
+}
+
+
+
+
