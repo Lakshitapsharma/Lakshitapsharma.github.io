@@ -538,7 +538,7 @@ li.left-footer-content.mobile
 
     .post-title-holder.one_title.absolute .entry-title a
     {
-        color: #E04343;
+        color: #6D7BD3;
         font-size: 24px;
         line-height: 30px;
         font-weight: 400;
@@ -546,13 +546,13 @@ li.left-footer-content.mobile
 
     .post-title-holder.one_title.absolute .cat-links a
     {
-        color: #E04343;
+        color: #6D7BD3;
         font-size: 11px;
     }
 
     .blog-item-holder .one_title .cat-links li:after
     {
-        color: #E04343;
+        color: #6D7BD3;
     }
 
     .post-thumb + .post-title-holder .entry-title

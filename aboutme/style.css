@@ -41,6 +41,150 @@ body a:hover
     top: 0 !important;
 }
 
+/*===============================Welcome to the sytling of lps=========================================*/
+
+/*====================================BG Animation====================================*/
+
+
+
+.circles{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+@keyframes bganimate {
+    
+    0%{
+
+        opacity: 1;
+        border-radius: 0;
+        transform: translateY(0) rotate(0deg);
+
+    }
+    100%{
+       
+        opacity: 0;
+        border-radius: 50%;
+        transform: translateY(-1000px) rotate(720deg);
+
+    }
+}
+
+
+.circles div{
+
+
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: rgba(131, 43, 174, 0.2);
+    bottom: -150px;
+    animation: bganimate 25s linear infinite;
+
+}
+
+.circles div:nth-child(1){
+
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+
+}
+
+.circles div:nth-child(2){
+  
+    left: 15%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+
+}
+.circles div:nth-child(3){
+    
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+
+    
+}
+.circles div:nth-child(4){
+
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    
+}
+.circles div:nth-child(5){
+    
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+
+}
+.circles div:nth-child(6){
+    
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+
+
+}
+.circles div:nth-child(7){
+    
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+
+}
+.circles div:nth-child(8){
+    
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+
+
+}
+.circles div:nth-child(9){
+ 
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+
+    
+}
+
+.circles div:nth-child(10){
+ 
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+
+
+}
+
+
 .doc-loader 
 {
     position: fixed;
@@ -49,7 +193,6 @@ body a:hover
     width: 100%;
     height: 100%;
     z-index: 99999;	
-    background-color: white;
 }
 
 .scroll-top
@@ -166,8 +309,9 @@ blockquote:before
 
 .header-image img
 {    
-    width: 90%;
+    width: 100%;
     height: auto;
+    background-color: #6D7BD3;
 }
 
 .content-1170
@@ -296,7 +440,7 @@ blockquote:before
 
 .blog-item-holder .only-post-title-holder
 {
-    background-color: #E04343;
+    background-color: #6D7BD3;
     padding: 100px 100px 80px 100px;    
 }
 
@@ -742,7 +886,7 @@ body.blog .more-posts
 
 .single-post-shortcode
 {
-    background-color: #E04343;
+    background-color: #6D7BD3;
     padding: 100px 100px 80px 100px; ;
 }
 
@@ -921,11 +1065,16 @@ ul.archive-list li span
 .footer a
 {
     color: #50504c;
+    transition: color 0.3s ease; 
+}
+
+.footer a:hover {
+    color: #6D7BD3 ;
 }
 
 .footer .fa-heart
 {
-    color: #e76f7d;
+    color: #6D7BD3;
     padding: 0 2px;
     -webkit-animation: pulse 1s linear infinite;
     -moz-animation: pulse 1s linear infinite;
@@ -1244,7 +1393,7 @@ li.left-footer-content.mobile
 
     .post-title-holder.one_title.absolute .entry-title a
     {
-        color: #E04343;
+        color: #6D7BD3;
         font-size: 24px;
         line-height: 30px;
         font-weight: 400;
@@ -1252,13 +1401,13 @@ li.left-footer-content.mobile
 
     .post-title-holder.one_title.absolute .cat-links a
     {
-        color: #E04343;
+        color: #6D7BD3;
         font-size: 11px;
     }
 
     .blog-item-holder .one_title .cat-links li:after
     {
-        color: #E04343;
+        color: #6D7BD3;
     }
 
     .post-thumb + .post-title-holder .entry-title
